@@ -8,6 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+	<h1>Signup Form Creation</h1>
+	<label for="name">Name</label>
+		<input type="text" id="name" required placeholder="Name">
+		<br/>
+	<label for="Email">Email</label>
+	<input type="text" id="email" required placeholder="email">
+		<br/>
+	<label>Gender</label>
+	<div>
+	<label for="gender_m">
+	<input type="radio" required id="gender_m" value="male" name="">Male
+	</label>
+	<label for="gender_f">
+	<input type="radio" required id="gender_f" value="female" name="">Female
+	</label>
+	</div>
+	<label for="cars">Car Brands</label>
+	<select id="cars" name="cars" required>
+		<option value"" >Please Select An Option</option>
+		<option value="Toyota" >Toyota</option>
+		<option value="BMW" >BMW</option>
+		<option value="Ford" >Ford</option>
+	</select>
+		<br/>
+	<label for="age">Age</label>
+	<input required type="number" id="age" name="age">
+		<br/>
+	<label for="dob">DOB</label>
+	<input required type="date" id="dob" name="dob">
+		<br/>
+	<label for="tel">Tel</label>
+	<input type="" id="tel" name="tel" placeholder="	xxx-xxx-xxxx">
+		<br/>
+	<label for="password">Password</label>
+	<input id="password" required name="password" placeholder="Password">
+		
+		<br/>
+			<div>
+			<input type="checkbox" id="tos" name="tos" required >
+			<label for="tos">I agree to the TOS</label>
+		</div>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
